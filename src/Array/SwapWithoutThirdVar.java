@@ -13,6 +13,7 @@ public class SwapWithoutThirdVar {
         sc.close();
     }
 
+
     void putdata() {
         System.out.println("1st no before swappning:" + num1);
         System.out.println("2nd no before swappning:" + num2);
