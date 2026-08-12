@@ -5,7 +5,7 @@ public class Student {
 
 
     static void main(String[] args) {
-        Student aa= new Student();
+//        Student aa= new Student();
         System.out.println("Student ID:"+Student.id);
     }
 }
