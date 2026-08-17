@@ -1,4 +1,4 @@
-package ConstructorChaining;
+package Constructor.ConstructorChaining;
 
 class Protein
 {

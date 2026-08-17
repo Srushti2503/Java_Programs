@@ -1,7 +1,7 @@
-package Array;
+package Array.BasicPrograms;
 import java.util.Scanner;
 
-public class SwapNumbers {
+public class SwapWithoutThirdVar {
     int num1,num2,temp;
 
     void getdata(){
@@ -13,21 +13,22 @@ public class SwapNumbers {
         sc.close();
     }
 
-    void putdata(){
-        System.out.println("1st no before swappning:"+num1);
-        System.out.println("2nd no before swappning:"+num2);
 
-        temp=num1;
-        num1=num2;
-        num2=temp;
+    void putdata() {
+        System.out.println("1st no before swappning:" + num1);
+        System.out.println("2nd no before swappning:" + num2);
+
+        num1=num1+num2;
+        num2=num1-num2;
+        num1=num1-num2;
 
         System.out.println("1st no after swappning:"+num1);
         System.out.println("2nd no after swappning:"+num2);
     }
 
     public static void main(String[] args) {
-        SwapNumbers obj = new SwapNumbers();
+        SwapWithoutThirdVar obj = new SwapWithoutThirdVar();
         obj.getdata();
         obj.putdata();
     }
-}
+    }

@@ -1,6 +1,4 @@
-package ConstructorChaining;
-
-import java.sql.SQLOutput;
+package Constructor.ConstructorChaining;
 
 class X{
 
