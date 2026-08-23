@@ -11,7 +11,7 @@ public class CountEvenNos {
                 count++;
             }
         }
-        System.out.println("Total no of even numbers in array:"+count);
+        System.out.println("Total number of even numbers in array:"+count);
     }
 
     public static void main(String[] args) {

@@ -61,6 +61,7 @@ public class MyTest {
         aa.setL(20);
         aa.setB(10);
         aa.setR(5);
+        aa.areaRect();
 
 
         double areaR=aa.areaRect();

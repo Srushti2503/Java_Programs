@@ -1,7 +1,5 @@
 package Encapsulation;
 
-
-
 class Student{
 
     //declare private variables...

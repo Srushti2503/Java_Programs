@@ -12,10 +12,10 @@ class Vehicle{
     }
 }
 
-class Car extends Vehicle{
+class Cars extends Vehicle{
     String model;
 
-    Car(String brand,String model){
+    Cars(String brand,String model){
         super(brand);
         this.model=model;
     }
@@ -41,7 +41,7 @@ public class MultiClases {
 
         System.out.println();
 
-        Car c= new Car("Toyoto","Corola");
+        Cars c= new Cars("Toyoto","Corola");
         c.honk();
         c.drive();
 
