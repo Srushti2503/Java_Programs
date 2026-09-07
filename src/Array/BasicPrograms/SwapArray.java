@@ -24,8 +24,9 @@ void getdata(){
     void putdata(){
         System.out.println("Elements of array before swapping :");
         for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
+        System.out.println();
 
         for(int i = 0; i < arr.length / 2; i++) {
             int temp = arr[i];
@@ -35,8 +36,9 @@ void getdata(){
 
         System.out.println("Elements of array after swapping:");
         for(int i=0; i<arr.length;i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {
