@@ -34,6 +34,7 @@ void getdata(){
             arr[arr.length - 1 - i] = temp;
         }
 
+//
         System.out.println("Elements of array after swapping:");
         for(int i=0; i<arr.length;i++){
             System.out.print(arr[i]+" ");

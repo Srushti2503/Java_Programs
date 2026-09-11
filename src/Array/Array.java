@@ -12,7 +12,7 @@ public class Array {
         System.out.println();
 
 
-        String[] arr2 ={"Srushti","Dipti","Aarvi"};
+        String[] arr2 ={"Srushti","Aarush","Aarvi"};
         System.out.println("Non-primitive array->");
         for(int i=0;i<arr2.length;i++){
             System.out.print(arr2[i]+" ");

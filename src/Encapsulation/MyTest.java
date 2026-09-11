@@ -32,7 +32,7 @@ class Mensuration {
         this.r = r;
     }
 
-    //method.....
+    //methods.....
     public double areaRect() {
         double area = l * b;
         return area;
