@@ -1,4 +1,4 @@
-package Inheritance;
+package Has_A_Relation;
 
 // Define the Engine class.
 class Engine {
