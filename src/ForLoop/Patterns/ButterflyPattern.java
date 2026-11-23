@@ -32,7 +32,7 @@ void putdata(){
         for(int k=1;k<=2*i;k++){
             System.out.print(" "+" ");
         }
-        //right atars..
+        //right stars..
         for(int k=1;k<=n-i;k++){
             System.out.print("*"+" ");
         }

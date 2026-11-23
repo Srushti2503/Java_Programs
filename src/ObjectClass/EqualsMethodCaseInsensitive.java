@@ -1,5 +1,5 @@
 package ObjectClass;
-import java.io.*;
+
 public class EqualsMethodCaseInsensitive {
 
     // Working equalsIgnoreCase() Method

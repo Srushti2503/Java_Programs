@@ -25,7 +25,7 @@ class Person{
 
 
 public class Test {
-    static void main(String[] args) {
+    public static void main(String[] args) {
      Person aa= new Person();
      aa.setName("Srushti");
      aa.setAge(22);

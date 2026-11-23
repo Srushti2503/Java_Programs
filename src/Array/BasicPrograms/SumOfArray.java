@@ -1,5 +1,4 @@
 package Array.BasicPrograms;
-import Continue.Sum;
 
 import java.util.Scanner;
 

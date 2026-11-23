@@ -3,13 +3,17 @@ package Encapsulation;
 class Number{
     private int y;
 
+    //getter..
     public int getNumber(){
         return y;
     }
 
+    //setter...
     public void setNumber(int y){
         this.y=y;
     }
+
+    //method to display
     void display(){
         System.out.println("Value of Y:"+y);
     }
